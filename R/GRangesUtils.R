@@ -24,7 +24,7 @@ filterChrGR <- function(
     pruningMode="coarse"
   ){
 
-  .validInput(input = gr, name = "gr", valid = c("GRanges"))
+  .validInput(input = gr, name = "gr", valid = c("GRanges", "TxDb"))
   .validInput(input = remove, name = "remove", valid = c("character", "null"))
   .validInput(input = underscore, name = "underscore", valid = c("boolean"))
   .validInput(input = standard, name = "standard", valid = c("boolean"))
